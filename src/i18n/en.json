@@ -1,0 +1,12 @@
+{
+  "purpose": "Evaluate Internal and External Risks in your Team with Adaptive AI",
+  "simulator": "CUJU Risk Simulator",
+  "q1": "Has your team shown abrupt behavioral changes?",
+  "q2": "Have any anomalous or unexpected accesses been detected?",
+  "q3": "Is there friction or lack of communication in the team?",
+  "select": "Select",
+  "yes": "Yes",
+  "no": "No",
+  "evaluate": "Evaluate Risk",
+  "cta": "Request Free Diagnosis"
+}

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "sentinel-new",
     "version": "1.0.0",
     "description": "Demo Sentinel con Chat IA (OpenAI)",
@@ -21,3 +22,22 @@
         "nodemon": "^2.0.20"
     }
 }
+=======
+  "name": "sentinel-cuho-impact-v5",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-i18next": "^12.3.1",
+    "i18next": "^23.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
+>>>>>>> d30625eb1ac0acc8a196c0962f0ebe8afddb3d69

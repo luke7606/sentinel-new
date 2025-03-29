@@ -1,6 +1,6 @@
 {
   "purpose": "Evaluá los Riesgos Internos y Externos de tu Equipo con IA Adaptativa",
-  "simulator": "Simulador de Riesgo CUJU",
+  "simulator": "Simulador de Riesgo",
   "q1": "¿Tu equipo ha tenido cambios abruptos en comportamiento?",
   "q2": "¿Se han detectado accesos anómalos o no esperados?",
   "q3": "¿Existen fricciones o falta de comunicación en el equipo?",

@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>SENTINEL CUJU</h1>
+      <h1>SENTINEL</h1>
       <h2>{t("purpose")}</h2>
       <div className="language-buttons">
         <button onClick={() => i18n.changeLanguage("es")}>ES</button>

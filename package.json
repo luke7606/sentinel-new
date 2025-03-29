@@ -1,7 +1,6 @@
 {
     "name": "sentinel-new",
     "version": "1.0.0",
-    "description": "Demo Sentinel con Chat IA (OpenAI)",
     "scripts": {
       "start": "node server.js",
       "dev": "nodemon server.js",

@@ -1,0 +1,24 @@
+{
+  "name": "sentinel-new",
+  "version": "1.0.0",
+  "description": "[![CI/CD](https://github.com/lucasmera/sentinel-new/actions/workflows/main.yml/badge.svg)](https://github.com/lucasmera/sentinel-new/actions)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmera/sentinel-new.git"
+  },
+  "keywords": [],
+  "author": "Lucas Mera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmera/sentinel-new/issues"
+  },
+  "homepage": "https://github.com/lucasmera/sentinel-new#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+

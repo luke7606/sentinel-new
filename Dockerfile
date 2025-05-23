@@ -1,38 +1,18 @@
-# Imagen base
+# Imagen base oficial de Node.js
 FROM node:18-alpine
 
-# Directorio de trabajo dentro del contenedor
+# Crear directorio de trabajo
 WORKDIR /app
 
-# Copiar archivos necesarios para instalar dependencias
+# Copiar archivos de dependencias e instalarlas
 COPY package*.json ./
-
-# Instalar dependencias
 RUN npm install
 
 # Copiar el resto del código fuente
 COPY . .
 
-# Exponer el puerto
+# Exponer el puerto usado por la app
 EXPOSE 8000
 
-# Comando de inicio
-CMD ["npm", "start"]
-# Imagen base oficial de Node.js
-FROM node:18-alpine
-
-# Crear carpeta de trabajo
-WORKDIR /app
-
-# Copiar archivos necesarios
-COPY package*.json ./
-RUN npm install
-
-COPY . .
-
-# Exponer el puerto
-EXPOSE 8000
-
-# Comando de inicio
+# Comando para iniciar la aplicación
 CMD ["node", "server.js"]
-

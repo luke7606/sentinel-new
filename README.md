@@ -1,6 +1,6 @@
 # SENTINEL - Post-Implementation Support Platform
 
-[![CI/CD](https://github.com/luke7606/sentinel-new/actions/workflows/docker-image.yml/badge.svg)](https://github.com/luke7606/sentinel-new/actions)
+[![CI/CD](https://github.com/luke7606/sentinel-new/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/luke7606/sentinel-new/actions)
 
 **[ES]** Plataforma inteligente de soporte post-implementación, con diagnóstico, automatización y monitoreo para soluciones técnicas.  
 **[EN]** Smart post-deployment support platform for technical projects, with automation, diagnostics, and monitoring.

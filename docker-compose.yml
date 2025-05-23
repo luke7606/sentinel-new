@@ -3,10 +3,9 @@ version: '3.8'
 services:
   sentinel:
     build: .
-    container_name: sentinel_app
     ports:
       - "8000:8000"
     volumes:
       - .:/app
-    command: npm start
+    command: ["node", "server.js"]
 
